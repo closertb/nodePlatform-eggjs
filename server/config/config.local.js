@@ -13,9 +13,9 @@ exports.sequelize = {
     // 端口号
     port: "3306",
     // 用户名
-    username: "root",
+    username: "server",
     // 密码
-    password: "12345678",
+    password: "Dom.0909",
     // 数据库名
     database: "nodePlatform"
 };

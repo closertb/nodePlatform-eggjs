@@ -8,7 +8,7 @@
  统一 timestamp 机制，每个 Model 必须有 created_at、updated_at 和 version，分别记录创建时间、修改时间和版本号。
 
  */
-const uuidv1 = require("uuid/v1")
+const uuidv1 = require("uuid").v1
 
 function generateUUID () {
   return uuidv1().replace(/-/g, "")

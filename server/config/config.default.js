@@ -22,6 +22,12 @@ module.exports = appInfo => {
     enable: false,
   }
 
+  config.sequelize = {
+    username: "server",
+    // 密码
+    password: "Dom.0909",
+  }
+
   // config.alinode = {
   //   enable: true,
   //   server: "wss://agentserver.node.aliyun.com:8080",
